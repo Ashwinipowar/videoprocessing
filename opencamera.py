@@ -1,6 +1,6 @@
 import cv2
 cap=cv2.VideoCapture(0)
-
+#this 0 we use for the webcam
 
 while True:
     ret ,frame =cap.read()
@@ -15,4 +15,5 @@ while True:
         print("quitting....")
         break
 cap.release()
+
 cv2.destroyAllWindows()
