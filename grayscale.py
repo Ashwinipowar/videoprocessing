@@ -1,3 +1,4 @@
+#get smooth image and soft look
 import cv2
 image=cv2.imread("python.png")
 
@@ -8,4 +9,5 @@ if image is not None:
     cv2.destroyAllWindows()
 
 else:
+
     print("image load hua nahi iasliye gray nahii kiya")
