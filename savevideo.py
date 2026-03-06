@@ -1,4 +1,6 @@
 #saving video in by extention avi
+#for open the video used vlc
+
 import cv2
 camera=cv2.VideoCapture(0)
 
@@ -25,3 +27,4 @@ camera.release()
 recorder.release()
 
 cv2.destroyAllWindows()   
+
