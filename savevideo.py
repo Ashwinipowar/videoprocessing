@@ -1,3 +1,4 @@
+#saving video in by extention avi
 import cv2
 camera=cv2.VideoCapture(0)
 
@@ -22,4 +23,5 @@ while True:
         break
 camera.release()
 recorder.release()
+
 cv2.destroyAllWindows()   
