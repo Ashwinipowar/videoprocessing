@@ -1,3 +1,5 @@
+#sharpning image
+
 import numpy as np
 import cv2
 
@@ -15,4 +17,5 @@ cv2.imshow("original image", image)
 cv2.imshow("sharpened image", sharpened)
 
 cv2.waitKey(0)
+
 cv2.destroyAllWindows()
